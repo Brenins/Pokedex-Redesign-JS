@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body{
+    background-color: aqua;
+    background: linear-gradient(to right, rgb(177, 186, 240), rgb(109, 185, 204));
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    list-style: none;
+}
+
+.logo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.tamanho-nav{
+    width: auto;
+    margin-top: 20px;
+}
+
+
+#barraPesquisa{
+    margin-right: 5px;
+}
+
+.cor-btn{
+    background-color: #FF6900;
+    color: white;
+}
